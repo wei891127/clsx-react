@@ -1,14 +1,18 @@
 import 'react';
 
-declare module 'react' {
-  interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
-    className?:
-      | string
-      | number
-      | boolean
-      | (string | number | boolean | null | undefined)[]
-      | Record<string, boolean | null | undefined>
-      | null
-      | undefined;
+type ClassNameValue =
+  | string
+  | number
+  | boolean
+  | undefined
+  | null
+  | Record<string, boolean | null | undefined>
+  | ClassNameValue[];
+
+declare global {
+  namespace JSX {
+    interface IntrinsicAttributes {
+      className?: ClassNameValue;
+    }
   }
 }

@@ -6,16 +6,15 @@
   "type": "module",
   "types": "./dist/react-clsx.d.ts",
   "exports": {
-    ".": {
+    "./jsx-runtime": {
       "types": "./dist/react-clsx.d.ts",
-      "import": [
-        "./dist/jsx-runtime.js",
-        "./dist/jsx-dev-runtime.js"
-      ],
-      "require": [
-        "./dist/jsx-runtime.cjs",
-        "./dist/jsx-dev-runtime.cjs"
-      ]
+      "import": "./dist/jsx-runtime.js",
+      "require": "./dist/jsx-runtime.cjs"
+    },
+    "./jsx-dev-runtime": {
+      "types": "./dist/react-clsx.d.ts",
+      "import": "./dist/jsx-dev-runtime.js",
+      "require": "./dist/jsx-dev-runtime.cjs"
     }
   },
   "files": [
@@ -50,11 +49,21 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "node scripts/build.js"
+    "build": "yarn test && node scripts/build.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.1",
     "clsx": "^2.1.1",
     "esbuild": "^0.27.2",
-    "react": "^19.2.3"
+    "jsdom": "^27.4.0",
+    "react": "^19.2.3",
+    "vitest": "^4.0.16"
   }
 }
